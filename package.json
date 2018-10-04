@@ -1,0 +1,22 @@
+{
+  "name": "htmltopdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pdf.js",
+  "dependencies": {
+    "pdfkit": "^0.8.3",
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cat instructions.md && node pdf.js && open test.pdf"
+  },
+  "keywords": [
+    "pdf",
+    "html",
+    "node",
+    "puppeteer"
+  ],
+  "author": "Adrián Zúñiga",
+  "license": "ISC"
+}
